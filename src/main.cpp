@@ -14,7 +14,7 @@ int main()
 {
 
 #ifdef USE_TRIGONOMETRY_DEGREE
-	double wynik_sin = degreemath::sin(30);
+	double wynik_sin = degreemath::sin(45);
 	std::cout << wynik_sin << std::endl;
 
 	double wynik_cos = degreemath::cos(60);
